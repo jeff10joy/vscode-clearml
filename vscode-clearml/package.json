@@ -1,0 +1,20 @@
+{
+    "name": "vscode-clearml",
+    "displayName": "vscode-clearml",
+    "description": "clearml boilerplates for various components such as pipelines, loggers etc",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
