@@ -1,50 +1,33 @@
-ClearML VSCode Snippet Tool
+## ClearML Snippets for Visual Studio Code
+A tool to help you create [ClearML](https://clearml.com) tasks and experiments faster and easier.
 
-A tool for creating, managing, and using code snippets in Visual Studio Code with ClearML.
-Features
+### Features
+- Create and edit code snippets directly from VSCode
+- Organize snippets into folders and tags for easy searching and access
+- Use snippets in your code by typing the snippet name and pressing Tab
+- Automatically sync your snippets with ClearML for access across multiple devices and environments
 
-    Create and edit code snippets directly from VSCode
-    Organize snippets into folders and tags for easy searching and access
-    Use snippets in your code by typing the snippet name and pressing Tab
-    Automatically sync your snippets with ClearML for access across multiple devices and environments
+### Prerequisites
+- [ClearML](https://clearml.com) account
+- [Visual Studio Code](https://code.visualstudio.com/) (version 1.41.0 or later)
 
-Prerequisites
+### Installation
+1. Install the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=clearml.clearml-snippets)
+2. Sign in to your ClearML account
+3. After installation, click "Reload" to activate the extension.
+4. In the VSCode command palette (Ctrl+Shift+P), search for "ClearML: Set API Key" and enter your ClearML API key.
 
-    ClearML account
-    Visual Studio Code
+### Usage
+1. In the VSCode command palette (Ctrl+Shift+P), search for "ClearML: Create Snippet" and follow the prompts to create a new snippet.
+2. In the VSCode command palette (Ctrl+Shift+P), search for "ClearML: Edit Snippet" and follow the prompts to edit an existing snippet.
+3. In the VSCode command palette (Ctrl+Shift+P), search for "ClearML: Delete Snippet" and follow the prompts to delete an existing snippet.
+4. In the VSCode command palette (Ctrl+Shift+P), search for "ClearML: Sync Snippets" to sync your snippets with ClearML.
 
-Installation
+### Contributing
+We welcome contributions to this project. Please see our [contributing guidelines]
 
-    Open VSCode and press Ctrl+Shift+X to open the extensions panel.
-    Search for "ClearML VSCode Snippet Tool" and click "Install".
-    After installation, click "Reload" to activate the extension.
-    In the VSCode command palette (Ctrl+Shift+P), search for "ClearML: Set API Key" and enter your ClearML API key.
+### License
+This project is licensed under the terms of the [MIT license]
 
-Usage
-Create a snippet
-
-    In the VSCode command palette, search for "ClearML: Create Snippet".
-    Enter a name for the snippet and press Enter.
-    Enter the snippet content and press Ctrl+S to save.
-    (Optional) Add tags or select a folder by clicking the "Tags" or "Folder" buttons in the top right corner.
-
-Edit a snippet
-
-    In the VSCode command palette, search for "ClearML: Edit Snippet".
-    Select the snippet you want to edit from the list.
-    Edit the snippet content and press Ctrl+S to save.
-    (Optional) Add tags or select a folder by clicking the "Tags" or "Folder" buttons in the top right corner.
-
-Use a snippet
-
-    Type the name of the snippet and press Ctrl+Space to bring up a list of matching snippets.
-    Select the snippet you want to use and press Tab to insert it into your code.
-
-Sync with ClearML
-
-    In the VSCode command palette, search for "ClearML: Sync Snippets".
-    Your snippets will be synced with your ClearML account.
-
-Support
-
-For any questions or issues, please contact support@clearml.com.
+### Contact
+For questions or feedback, please contact us at joy.jefferson10@gmail.com
